@@ -3,7 +3,7 @@
 
 Casper Hansen, Christian Hansen, Lucas Chaves Lima (2021). Automatic Fake News Detection: Are Models Learning to Reason? ACL-IJCNLP 2021
  <br>
-1. Make sure to download the dataset (https://www.dropbox.com/s/3v5oy3eddg3506j/multi_fc_publicdata.zip?dl=0), and place in the same directory as code-acl. Note that code-acl contains a single directory called bias.
+1. Make sure to download the dataset (https://www.dropbox.com/s/3v5oy3eddg3506j/multi_fc_publicdata.zip?dl=0), and place in the same directory as code-acl. 
 2. Install a python environment with the required packages (requirements.txt)
 3. replace the model_selection.py from the hypopt packages with model_selection.py provided in the source code. (The original hypopt code contains a bug).
 4. When you run the code for the first time, it might take some time to download pretrained language models and GloVe word embeddings.
