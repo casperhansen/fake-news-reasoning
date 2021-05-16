@@ -340,7 +340,6 @@ def run_bow(args, train_generator, val_generator, test_generator, label_weights,
 
     opt = GridSearch(model=RandomForestClassifier(n_jobs=5, class_weight=weights), param_grid=param_grid, parallelize=False)
     opt.fit(train_bow, train_labels, val_bow, val_labels, scoring="f1_macro")
-    exit()
 
     def rf_eval(model, bow, labels, other_from=None):
         preds = model.predict(bow)
