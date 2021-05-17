@@ -1,7 +1,7 @@
 
 # Automatic Fake News Detection: Are Models Learning to Reason
 
-Casper Hansen, Christian Hansen, Lucas Chaves Lima (2021). Automatic Fake News Detection: Are Models Learning to Reason? ACL-IJCNLP 2021
+Casper Hansen, Christian Hansen, Lucas Chaves Lima (2021). Automatic Fake News Detection: Are Models Learning to Reason? ACL 2021
  <br>
 1. Make sure to download the dataset (https://www.dropbox.com/s/3v5oy3eddg3506j/multi_fc_publicdata.zip?dl=0), and place in the same directory as code-acl. 
 2. Install a python environment with the required packages (requirements.txt)
